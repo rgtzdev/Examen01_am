@@ -21,6 +21,15 @@
 		1AD987C119CDBF180073F1B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD987A319CDBF180073F1B0 /* UIKit.framework */; };
 		1AD987C919CDBF180073F1B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AD987C719CDBF180073F1B0 /* InfoPlist.strings */; };
 		1AD987CB19CDBF180073F1B0 /* BMI_examTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD987CA19CDBF180073F1B0 /* BMI_examTests.m */; };
+		1AD987D719CDBF510073F1B0 /* Developer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD987D619CDBF510073F1B0 /* Developer.m */; };
+		1AD987DB19CDC7D70073F1B0 /* BMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD987DA19CDC7D70073F1B0 /* BMIViewController.m */; };
+		1AD987E719CDD9ED0073F1B0 /* moderately.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AD987E219CDD9ED0073F1B0 /* moderately.jpg */; };
+		1AD987E819CDD9ED0073F1B0 /* normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AD987E319CDD9ED0073F1B0 /* normal.jpg */; };
+		1AD987E919CDD9ED0073F1B0 /* risk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AD987E419CDD9ED0073F1B0 /* risk.jpg */; };
+		1AD987EA19CDD9ED0073F1B0 /* severely.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AD987E519CDD9ED0073F1B0 /* severely.jpg */; };
+		1AD987EB19CDD9ED0073F1B0 /* under.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AD987E619CDD9ED0073F1B0 /* under.jpg */; };
+		1AD987EE19CDE01D0073F1B0 /* DevTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD987ED19CDE01D0073F1B0 /* DevTableViewCell.m */; };
+		1AD987F119CDE4070073F1B0 /* AboutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD987F019CDE4070073F1B0 /* AboutTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,19 @@
 		1AD987C619CDBF180073F1B0 /* BMI_examTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMI_examTests-Info.plist"; sourceTree = "<group>"; };
 		1AD987C819CDBF180073F1B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AD987CA19CDBF180073F1B0 /* BMI_examTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMI_examTests.m; sourceTree = "<group>"; };
+		1AD987D519CDBF510073F1B0 /* Developer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Developer.h; path = Models/Developer.h; sourceTree = "<group>"; };
+		1AD987D619CDBF510073F1B0 /* Developer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Developer.m; path = Models/Developer.m; sourceTree = "<group>"; };
+		1AD987D919CDC7D70073F1B0 /* BMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMIViewController.h; path = Controllers/BMIViewController.h; sourceTree = "<group>"; };
+		1AD987DA19CDC7D70073F1B0 /* BMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMIViewController.m; path = Controllers/BMIViewController.m; sourceTree = "<group>"; };
+		1AD987E219CDD9ED0073F1B0 /* moderately.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moderately.jpg; sourceTree = "<group>"; };
+		1AD987E319CDD9ED0073F1B0 /* normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = normal.jpg; sourceTree = "<group>"; };
+		1AD987E419CDD9ED0073F1B0 /* risk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = risk.jpg; sourceTree = "<group>"; };
+		1AD987E519CDD9ED0073F1B0 /* severely.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = severely.jpg; sourceTree = "<group>"; };
+		1AD987E619CDD9ED0073F1B0 /* under.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = under.jpg; sourceTree = "<group>"; };
+		1AD987EC19CDE01D0073F1B0 /* DevTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DevTableViewCell.h; path = Models/DevTableViewCell.h; sourceTree = "<group>"; };
+		1AD987ED19CDE01D0073F1B0 /* DevTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DevTableViewCell.m; path = Models/DevTableViewCell.m; sourceTree = "<group>"; };
+		1AD987EF19CDE4070073F1B0 /* AboutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutTableViewController.h; path = Controllers/AboutTableViewController.h; sourceTree = "<group>"; };
+		1AD987F019CDE4070073F1B0 /* AboutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutTableViewController.m; path = Controllers/AboutTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +134,13 @@
 		1AD987A519CDBF180073F1B0 /* BMI_exam */ = {
 			isa = PBXGroup;
 			children = (
+				1AD987E219CDD9ED0073F1B0 /* moderately.jpg */,
+				1AD987E319CDD9ED0073F1B0 /* normal.jpg */,
+				1AD987E419CDD9ED0073F1B0 /* risk.jpg */,
+				1AD987E519CDD9ED0073F1B0 /* severely.jpg */,
+				1AD987E619CDD9ED0073F1B0 /* under.jpg */,
+				1AD987D819CDC7A40073F1B0 /* Controllers */,
+				1AD987D419CDBF200073F1B0 /* Models */,
 				1AD987AE19CDBF180073F1B0 /* WPAppDelegate.h */,
 				1AD987AF19CDBF180073F1B0 /* WPAppDelegate.m */,
 				1AD987B119CDBF180073F1B0 /* Main.storyboard */,
@@ -150,6 +179,28 @@
 				1AD987C719CDBF180073F1B0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AD987D419CDBF200073F1B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AD987D619CDBF510073F1B0 /* Developer.m */,
+				1AD987D519CDBF510073F1B0 /* Developer.h */,
+				1AD987EC19CDE01D0073F1B0 /* DevTableViewCell.h */,
+				1AD987ED19CDE01D0073F1B0 /* DevTableViewCell.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1AD987D819CDC7A40073F1B0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AD987D919CDC7D70073F1B0 /* BMIViewController.h */,
+				1AD987DA19CDC7D70073F1B0 /* BMIViewController.m */,
+				1AD987EF19CDE4070073F1B0 /* AboutTableViewController.h */,
+				1AD987F019CDE4070073F1B0 /* AboutTableViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +281,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD987B819CDBF180073F1B0 /* Images.xcassets in Resources */,
+				1AD987E819CDD9ED0073F1B0 /* normal.jpg in Resources */,
 				1AD987AA19CDBF180073F1B0 /* InfoPlist.strings in Resources */,
 				1AD987B319CDBF180073F1B0 /* Main.storyboard in Resources */,
+				1AD987EA19CDD9ED0073F1B0 /* severely.jpg in Resources */,
+				1AD987E919CDD9ED0073F1B0 /* risk.jpg in Resources */,
+				1AD987EB19CDD9ED0073F1B0 /* under.jpg in Resources */,
+				1AD987E719CDD9ED0073F1B0 /* moderately.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD987D719CDBF510073F1B0 /* Developer.m in Sources */,
 				1AD987AC19CDBF180073F1B0 /* main.m in Sources */,
 				1AD987B019CDBF180073F1B0 /* WPAppDelegate.m in Sources */,
+				1AD987EE19CDE01D0073F1B0 /* DevTableViewCell.m in Sources */,
+				1AD987DB19CDC7D70073F1B0 /* BMIViewController.m in Sources */,
 				1AD987B619CDBF180073F1B0 /* WPViewController.m in Sources */,
+				1AD987F119CDE4070073F1B0 /* AboutTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
